@@ -13,6 +13,11 @@ namespace TestGitHub
             double b = 3;
             Console.WriteLine(sumElement.Result(a, b));
 
+            //for branche work
+
+            DifferenceElements differenceElements = new DifferenceElements();
+            Console.WriteLine(differenceElements.Result(a, b));
+
             Console.ReadLine();
         }
     }
