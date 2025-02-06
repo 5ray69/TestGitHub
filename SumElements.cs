@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace TestGitHub
 {
-    internal class Program
+    internal class SumElement
     {
-
-
-        static void Main(string[] args)
+        double Result(double a, double b)
         {
+            return a + b;
         }
+
     }
 }
