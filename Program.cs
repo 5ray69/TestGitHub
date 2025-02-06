@@ -13,6 +13,10 @@ namespace TestGitHub
             double b = 3;
             Console.WriteLine(sumElement.Result(a, b));
 
+            double a2 = 22;
+            double b2 = 23;
+            Console.WriteLine(sumElement.Result(a2, b2));
+
             Console.ReadLine();
         }
     }
