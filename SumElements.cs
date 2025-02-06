@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TestGitHub
 {
-    internal class SumElement
+    public class SumElement
     {
-        double Result(double a, double b)
+        public double Result(double a, double b)
         {
             return a + b;
         }
