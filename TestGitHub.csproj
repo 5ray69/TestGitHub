@@ -51,5 +51,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryNetStandard2_0\LibraryNetStandard2_0.csproj">
+      <Project>{d46ff970-1cd9-4e89-ab2a-f95c45f30760}</Project>
+      <Name>LibraryNetStandard2_0</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
